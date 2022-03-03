@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Computers page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Desktops page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Product is added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16315" started-at="2022-03-02T18:32:13 IST" finished-at="2022-03-02T18:32:29 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16315" started-at="2022-03-02T18:32:13 IST" finished-at="2022-03-02T18:32:29 IST">
+      <class name="computers.TC_021">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:computers.TC_021@52feb982]" name="openTheBrowser" is-config="true" duration-ms="3397" started-at="2022-03-02T18:32:13 IST" finished-at="2022-03-02T18:32:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:computers.TC_021@52feb982]" name="loginToApplication" is-config="true" duration-ms="4782" started-at="2022-03-02T18:32:16 IST" finished-at="2022-03-02T18:32:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="AddingDesktopItemTocart()[pri:0, instance:computers.TC_021@52feb982]" name="AddingDesktopItemTocart" duration-ms="4953" started-at="2022-03-02T18:32:21 IST" finished-at="2022-03-02T18:32:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Computers page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Desktops page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Product is added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddingDesktopItemTocart -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:computers.TC_021@52feb982]" name="logoutOfApplication" is-config="true" duration-ms="2376" started-at="2022-03-02T18:32:26 IST" finished-at="2022-03-02T18:32:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:computers.TC_021@52feb982]" name="closeTheBrowser" is-config="true" duration-ms="752" started-at="2022-03-02T18:32:28 IST" finished-at="2022-03-02T18:32:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- computers.TC_021 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
